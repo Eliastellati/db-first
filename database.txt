@@ -17,6 +17,8 @@ immatricolazioe - date - DATE
 
 cilindrata - integer - SMALL - NOTNULL
 
+potenza - integer - SMALL - NULL 
+
 alimentazione - stringa - VARCHAR(50) - NOTNULL
 
 porte - integer - TINYINT
