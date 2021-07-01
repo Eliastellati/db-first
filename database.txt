@@ -9,6 +9,8 @@ modello - string - VARCHAR(40) - NOTNULL
 
 immagine - string - TEXT
 
+luogo - string - VARCHAR(60)
+
 colore - string - VARCHAR(100)
 
 targa - string - VARCHAR(15) - NOTNULL - UNIQUE
@@ -26,3 +28,15 @@ porte - integer - TINYINT
 disponibilità - boolean - TINYINT - DEFAULT 1
 
 prezzo - integer - FLOAT(9,2)
+
+proprietari - integer - TINYINT - DEFAULT(1)
+
+cambio - string - VARCHAR(20)
+
+marce - integer - TINYINT 
+
+peso - integer - SMALL 
+
+neopatentati - boolean - TINYINT - DEFAULT(0)
+
+comfort - string - TEXT - NULL
