@@ -1,0 +1,26 @@
+nome tabella: auto
+
+
+id - integer - SMALL - PRIMARY KEY - AUTO_INCREMENT
+
+marca - string - VARCHAR(25) - NOTNULL
+
+modello - string - VARCHAR(40) - NOTNULL
+
+immagine - string - TEXT
+
+colore - string - VARCHAR(100)
+
+targa - string - VARCHAR(15) - NOTNULL - UNIQUE
+
+immatricolazioe - date - DATE
+
+cilindrata - integer - SMALL - NOTNULL
+
+alimentazione - stringa - VARCHAR(50) - NOTNULL
+
+porte - integer - TINYINT
+
+disponibilità - boolean - TINYINT - DEFAULT 1
+
+prezzo - integer - FLOAT(9,2)
